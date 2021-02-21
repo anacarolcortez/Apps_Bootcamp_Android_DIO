@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactDetail"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/purple_500"
+        app:title="@string/app_name"
+        android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar" />?
+
+    <ImageView
+        android:id="@+id/photoDetail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Contato"
+        android:textSize="35sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/phoneDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(00) 0000-0000"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+</LinearLayout>

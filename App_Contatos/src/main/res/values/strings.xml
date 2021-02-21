@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meus Contatos</string>
+    <string name="menu1">Editar</string>
+    <string name="menu2">Compartilhar</string>
+    <string name="openDrawer">Menu lateral aberto</string>
+    <string name="closeDrawer">Menu lateral fechado</string>
+
+</resources>
