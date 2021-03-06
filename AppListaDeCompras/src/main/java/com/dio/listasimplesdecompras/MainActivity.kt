@@ -2,6 +2,8 @@ package com.dio.listasimplesdecompras
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,8 +17,18 @@ class MainActivity : AppCompatActivity() {
 
         btnAdicionar.setOnClickListener {
             val produto = inputProduto.text.toString()
-            produtosAdapter.add(produto)
+            if	(produto.isNotEmpty())	{
+                produtosAdapter.add(produto)
+                inputProduto.text.clear()
+            } else {
+                inputProduto.error = "Digite um produto"
+            }
         }
 
+        list_view_produtos.setOnItemLongClickListener { adapterView: AdapterView<*>, view: View, position: Int, id: Long ->
+            val item = produtosAdapter.getItem(position)
+            produtosAdapter.remove(item)
+            true
+        }
     }
 }
