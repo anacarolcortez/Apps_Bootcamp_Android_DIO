@@ -6,10 +6,8 @@ Exercício proposto durante Bootcamp de Kotlin para Android da Digital Innovatio
 ![Img](https://i.imgur.com/hUaBaUm.png)
 ## App Cálulo IMC
 <br/>App recebe peso e altura do usuário e calcula IMC
-![Img](https://i.imgur.com/cEf8R9C.png)
 ## App Cálculo Aprovação
 <br/>App recebe duas notas, calcula a média. Recebe quantidade de faltas. De acordo com média e faltas, aponta se aluno foi aprovado (com texto em azul) ou se foi reprovado (com texto em vermelho)
-![Img](https://i.imgur.com/sfrSyJR.png)
 ## App Lista de compras
 App adiciona itens à ListView<br/>
 ![Img](https://i.imgur.com/cnFi9pV.png)
