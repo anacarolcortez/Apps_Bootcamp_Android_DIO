@@ -11,4 +11,6 @@ Exercício proposto durante Bootcamp de Kotlin para Android da Digital Innovatio
 ## App Lista de compras
 App adiciona itens à ListView<br/>
 ![Img](https://i.imgur.com/cnFi9pV.png)
+## App Calendário
+Exercício na main activity que aproveita função nativa do android de adicionar evento em calendário
 
